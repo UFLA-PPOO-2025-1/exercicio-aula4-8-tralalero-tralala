@@ -115,6 +115,9 @@ public class Simulador
         animais.addAll(novosAnimais);
 
         atualizarVisoes();
+        VisaoDeTexto infoPrompt = new VisaoDeTexto();
+        infoPrompt.mostrarStatus(passo, campo);
+
     }
         
     /**
