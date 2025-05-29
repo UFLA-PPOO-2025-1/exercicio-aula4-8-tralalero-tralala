@@ -15,8 +15,8 @@ public class VisaoDeTexto implements VisaoSimulador {
     
     @Override
     public boolean ehViavel(Campo campo) {
-        // metodo sem implementação
-        return true;
+
+        return infos.ehViavel(campo);
     }
     
      @Override
